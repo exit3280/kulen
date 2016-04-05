@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="section proizvodi">
+  <div class="span6">
+    <h2>{{ page.title }}</h2>
+
+    <img src="/assets/img/proizvodi/{{page.thumbnail}}"></img>
+    {{ content }}
+  </div>
+
+  <div class="span6">
+    <input type="text" placeholder="Količina(kg) - minimalna narudžba 1kg"></input>
+    <input type="text" placeholder="Ime i prezime"></input>
+    <input type="text" placeholder="Email adresa"></input>
+    <input type="text" placeholder="Adresa za dostavu"></input>
+    <textarea cols="45" rows="6" placeholder="Dodatne napomene"></textarea>
+    <input type="submit" value="Naruči" class="narudzba-button"></input>
+  </div>
+</div>

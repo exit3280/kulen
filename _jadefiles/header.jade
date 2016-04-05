@@ -1,0 +1,46 @@
+header.centered-navigation(role='banner')
+  .centered-navigation-wrapper
+    a.mobile-logo(href='javascript:void(0)')
+      img(src='http://www.jankovic.hr/wp-content/uploads/2013/11/jankovic_logo_white.png', alt='Logo image')
+    
+    a#js-centered-navigation-mobile-menu.centered-navigation-mobile-menu(href='javascript:void(0)') IZBORNIK
+    
+    nav(role='navigation')
+      .container
+        .span6
+          a.logo(href='/')
+            img(src='http://www.jankovic.hr/wp-content/uploads/2013/11/jankovic_logo_white.png', alt='Logo image')
+        
+        .span6              
+          ul#js-centered-navigation-menu.centered-navigation-menu.show
+            //li.nav-link.logo
+            //  a.logo(href='/')
+            //    img(src='http://www.jankovic.hr/wp-content/uploads/2013/11/jankovic_logo_white.png', alt='Logo image')
+          
+            li.nav-link
+              a(href="/o-nama") <strong>O NAMA</strong>
+            li.nav-link
+              a(href='/proizvodi') <strong>PROIZVODI</strong>
+            li.nav-link
+              a(href='/kontakt') <strong>KONTAKT</strong>
+            li.nav-link.more
+              a(href='javascript:void(0)') More
+              ul.submenu
+                li
+                  a(href='javascript:void(0)') Submenu Item
+                li
+                  a(href='javascript:void(0)') Another Item
+                li.more
+                  a(href='javascript:void(0)') Item with submenu
+                  ul.submenu
+                    li
+                      a(href='javascript:void(0)') Sub-submenu Item
+                    li
+                      a(href='javascript:void(0)') Another Item
+                li.more
+                  a(href='javascript:void(0)') Another submenu
+                  ul.submenu
+                    li
+                      a(href='javascript:void(0)') Sub-submenu
+                    li
+                      a(href='javascript:void(0)') An Item
